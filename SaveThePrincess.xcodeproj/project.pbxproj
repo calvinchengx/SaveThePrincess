@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E5255A11411FE6400A6DEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5255A01411FE6400A6DEE6 /* Foundation.framework */; };
+		3E5255A41411FE6400A6DEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5255A31411FE6400A6DEE6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E52559A1411FE6400A6DEE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E52559C1411FE6400A6DEE6 /* SaveThePrincess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SaveThePrincess; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5255A01411FE6400A6DEE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E5255A31411FE6400A6DEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E5255A61411FE6400A6DEE6 /* SaveThePrincess-Prefix.pch */ = {isa = PBXFileReference; path = "SaveThePrincess-Prefix.pch"; sourceTree = "<group>"; };
+		3E5255A71411FE6400A6DEE6 /* SaveThePrincess.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SaveThePrincess.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E5255991411FE6400A6DEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5255A11411FE6400A6DEE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E5255911411FE6400A6DEE6 = {
+			isa = PBXGroup;
+			children = (
+				3E5255A21411FE6400A6DEE6 /* SaveThePrincess */,
+				3E52559F1411FE6400A6DEE6 /* Frameworks */,
+				3E52559D1411FE6400A6DEE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E52559D1411FE6400A6DEE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E52559C1411FE6400A6DEE6 /* SaveThePrincess */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E52559F1411FE6400A6DEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5255A01411FE6400A6DEE6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5255A21411FE6400A6DEE6 /* SaveThePrincess */ = {
+			isa = PBXGroup;
+			children = (
+				3E5255A31411FE6400A6DEE6 /* main.m */,
+				3E5255A71411FE6400A6DEE6 /* SaveThePrincess.1 */,
+				3E5255A51411FE6400A6DEE6 /* Supporting Files */,
+			);
+			path = SaveThePrincess;
+			sourceTree = "<group>";
+		};
+		3E5255A51411FE6400A6DEE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E5255A61411FE6400A6DEE6 /* SaveThePrincess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E52559B1411FE6400A6DEE6 /* SaveThePrincess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E5255AA1411FE6400A6DEE6 /* Build configuration list for PBXNativeTarget "SaveThePrincess" */;
+			buildPhases = (
+				3E5255981411FE6400A6DEE6 /* Sources */,
+				3E5255991411FE6400A6DEE6 /* Frameworks */,
+				3E52559A1411FE6400A6DEE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveThePrincess;
+			productName = SaveThePrincess;
+			productReference = 3E52559C1411FE6400A6DEE6 /* SaveThePrincess */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E5255931411FE6400A6DEE6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3E5255961411FE6400A6DEE6 /* Build configuration list for PBXProject "SaveThePrincess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E5255911411FE6400A6DEE6;
+			productRefGroup = 3E52559D1411FE6400A6DEE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E52559B1411FE6400A6DEE6 /* SaveThePrincess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5255981411FE6400A6DEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5255A41411FE6400A6DEE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E5255A81411FE6400A6DEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E5255A91411FE6400A6DEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E5255AB1411FE6400A6DEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePrincess/SaveThePrincess-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E5255AC1411FE6400A6DEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePrincess/SaveThePrincess-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E5255961411FE6400A6DEE6 /* Build configuration list for PBXProject "SaveThePrincess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5255A81411FE6400A6DEE6 /* Debug */,
+				3E5255A91411FE6400A6DEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E5255AA1411FE6400A6DEE6 /* Build configuration list for PBXNativeTarget "SaveThePrincess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5255AB1411FE6400A6DEE6 /* Debug */,
+				3E5255AC1411FE6400A6DEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E5255931411FE6400A6DEE6 /* Project object */;
+}
