@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E5255A11411FE6400A6DEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5255A01411FE6400A6DEE6 /* Foundation.framework */; };
 		3E5255A41411FE6400A6DEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5255A31411FE6400A6DEE6 /* main.m */; };
+		3E5255AF1412033400A6DEE6 /* Princess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5255AE1412033400A6DEE6 /* Princess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,10 @@
 		3E52559C1411FE6400A6DEE6 /* SaveThePrincess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SaveThePrincess; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5255A01411FE6400A6DEE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E5255A31411FE6400A6DEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E5255A61411FE6400A6DEE6 /* SaveThePrincess-Prefix.pch */ = {isa = PBXFileReference; path = "SaveThePrincess-Prefix.pch"; sourceTree = "<group>"; };
+		3E5255A61411FE6400A6DEE6 /* SaveThePrincess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaveThePrincess-Prefix.pch"; sourceTree = "<group>"; };
 		3E5255A71411FE6400A6DEE6 /* SaveThePrincess.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SaveThePrincess.1; sourceTree = "<group>"; };
+		3E5255AD1412033400A6DEE6 /* Princess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Princess.h; sourceTree = "<group>"; };
+		3E5255AE1412033400A6DEE6 /* Princess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Princess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				3E5255A31411FE6400A6DEE6 /* main.m */,
 				3E5255A71411FE6400A6DEE6 /* SaveThePrincess.1 */,
 				3E5255A51411FE6400A6DEE6 /* Supporting Files */,
+				3E5255AD1412033400A6DEE6 /* Princess.h */,
+				3E5255AE1412033400A6DEE6 /* Princess.m */,
 			);
 			path = SaveThePrincess;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5255A41411FE6400A6DEE6 /* main.m in Sources */,
+				3E5255AF1412033400A6DEE6 /* Princess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
